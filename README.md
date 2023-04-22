@@ -20,15 +20,16 @@ Descrição do código
 O código realiza as seguintes etapas:
 
 - Carrega os dados do arquivo dados_banco.csv.
-Divide os dados em conjunto de treinamento e teste.
+- Divide os dados em conjunto de treinamento e teste.
 Normaliza os dados.
-Transforma as variáveis categóricas em variáveis numéricas.
-Converte os dados para tensores.
-Cria a classe do modelo de rede neural.
-Define a função de perda e o otimizador.
-Treina o modelo.
-Avalia o desempenho do modelo usando o conjunto de teste.
-Realiza previsões para um novo conjunto de dados.
+- Transforma as variáveis categóricas em variáveis numéricas.
+- Converte os dados para tensores.
+- Cria a classe do modelo de rede neural.
+- Define a função de perda e o otimizador.
+- Treina o modelo.
+- Avalia o desempenho do modelo usando o conjunto de teste.
+- Realiza previsões para um novo conjunto de dados.
+
 O modelo é uma rede neural com duas camadas ocultas, com 10 e 5 neurônios respectivamente. A função de ativação utilizada é a sigmoid e a função de perda é a Binary Cross Entropy (BCELoss).
 
 O código imprime o valor da perda a cada 100 épocas durante o treinamento e, ao final, exibe a acurácia do modelo no conjunto de teste. Por fim, realiza uma previsão para um novo conjunto de dados.
