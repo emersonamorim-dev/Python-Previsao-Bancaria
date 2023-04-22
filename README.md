@@ -4,11 +4,11 @@
 Este repositório contém uma implementação de uma rede neural usando PyTorch para previsão de pagamento por transferência PIX baseado em dados de histórico de pagamento.
 
 Dependências
-Python 3.x
-PyTorch
-Pandas
-Numpy
-Conjunto de dados
+1 - Python 3.x
+2 - PyTorch
+3 - Pandas
+4 - Numpy
+5 - Conjunto de dados
 
 O conjunto de dados utilizado é o dados_banco.csv que contém informações sobre as formas de pagamento utilizadas pelos clientes de um banco.
 
